@@ -3,14 +3,38 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Accessible Web Page</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+<header role="banner">
+    <h1>My Accessible Web Page</h1>
+  </header>
+	<nav role="navigation">
+    <ul>
+      <li><a href="#" role="link">Home</a></li>
+      <li><a href="#" role="link">About</a></li>
+      <li><a href="#" role="link">Contact</a></li>
+    </ul>
+  </nav>
+  <main role="main">
+    <img src="https://fallspcclinic.com/wp-content/uploads/2013/12/best_free_software1.jpg" alt="software" role="img" width ="300px">
+    <p>This is a brief description of the image.</p>
+  <h2 role="heading" aria-level="2">List of Items</h2>
+    <ul role="list">
+      <li role="listitem">Item 1</li>
+      <li role="listitem">Item 2</li>
+      <li role="listitem">Item 3</li>
+    </ul>
+  </main>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
+	
 
 </html>
